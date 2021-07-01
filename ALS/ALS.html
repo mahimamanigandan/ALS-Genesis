@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALS</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="ALS.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Symptoms.html">SYMPTOMS</a></li>
+                    <li><a href="Diagnose.html">DIAGNOSE</a></li>
+                    <li><a href="Therapy.html">THERAPY</a></li>
+                    <li><a href="Consult.html">CONSULT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>ALS</h1>
+            <p>ALS, is a progressive nervous system disease that affects nerve cells in the brain and spinal cord, causing loss of muscle control.<br>A-myo-trophic comes from the Greek language.<br>"A" means no.<br>"Myo" refers to muscle,<br>"Trophic" means nourishment – "No muscle nourishment." <br>When a muscle has no nourishment, it "atrophies" or wastes away. </p>
+        </div>
+    </section>
+
+<!--------------ALS---------------->
+<section class="ALS">
+    <h2>What is ALS?</h2>
+    <p2>Amyotrophic lateral sclerosis (ALS), also known as motor neurone disease (MND) or Lou Gehrig's disease,<br>is a neurodegenerative neuromuscular disease that results in the progressive loss of motor neurons that control voluntary muscles.<br>ALS is the most common type of motor neuron disease.</p2>
+</section>
+
+<!--------------Footer----------------> 
+<section class="footer">
+    <h3>About Us</h3>
+    <p3>We are in the fight against ALS - Stay Strong..!!</p3>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i></p>
+</section>
+
+<!--------------JavaScript for Toggle Menu-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALS</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="ALS.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Symptoms.html">SYMPTOMS</a></li>
+                    <li><a href="Diagnose.html">DIAGNOSE</a></li>
+                    <li><a href="Therapy.html">THERAPY</a></li>
+                    <li><a href="Consult.html">CONSULT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Therapy</h1>
+        </div>
+    </section>
+
+<!--------------Therapy Content----------------> 
+<section class="ther">
+    <div class="row">
+        <div class="ther-col">
+            <h1>What can I do?</h1>
+            <p>&emsp;&emsp;&emsp;&emsp;Treatments can't reverse the damage of amyotrophic lateral sclerosis, but they can slow the progression of symptoms and prevent complications. Hence, this might make them more comfortable and independent and thereby, helps to prolong their survival and improve their quality of life.</p>
+        </div>
+    </div>
+</section>
+
+<!--------------Medication----------------> 
+<section class="medication" id="medication">
+    <div class="title">
+        <h2 class="titleText">Medication</h2>
+        <p>Signs and symptoms of ALS vary greatly from person to person, depending on which neurons are affected. Signs and symptoms might include:</p>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/riluzole.jpg">
+                <div class="med">
+                    <h3>Riluzole(Rilutek)<br>It has been shown to increase life expectancy by three to six months.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/radicava.jpg">
+                <div class="med">
+                    <h3>Edaravone (Radicava)<br>It is given by intravenous infusion,<br>to reduce the decline in daily functioning.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------------Therapy---------------->
+<section class="therapy" id="therapy">
+    <div class="title">
+        <h2 class="titleText">Therapy</h2>
+        <p>Most of the treatments for ALS involve managing the symptoms of the disease as it worsens. Some of them include:</p>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/breathing-care.jpg">
+                <div class="phy">
+                    <h3>Breathing Care<br>Mechanical ventilation is given to assist breathing, a tube is inserted in a surgically created hole at the front of the neck leading to the windpipe that connects to a respirator.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/physical.jpg">
+                <div class="phy">
+                    <h3>Physical Therapy<br>Practicing low-impact exercises regularly can help maintain cardiovascular fitness, muscle strength, and range of motion for a longer period of time.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/occupational.jpg">
+                <div class="phy">
+                    <h3>Occupational Therapy<br>Adaptive equipment is recommended by an occupational therapist to perform activities such as dressing, grooming, eating and bathing.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/speech.jpg">
+                <div class="phy">
+                    <h3>Speech therapy<br>Alphabet board or pen, paper, and text-to-speech applications or computer-based equipment with the synthesized speech are used to assist communication.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/nutritional.jpg">
+                <div class="phy">
+                    <h3>Nutritional Support<br>Foods that are easier to swallow are prescribed to meet nutritional needs and eventually, a feeding tube will be recommended.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/social.jpg">
+                <div class="phy">
+                    <h3>Psychological and social support<br>Psychologists and social workers provide emotional support and help with financial issues, insurance, and getting equipment, and paying for devices required.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------Footer----------------> 
+<section class="footer">
+    <h3>About Us</h3>
+    <p3>We are in the fight against ALS - Stay Strong..!!</p3>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i></p>
+</section>
+
+<!--------------JavaScript for Toggle Menu-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

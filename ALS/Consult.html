@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALS</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="ALS.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Symptoms.html">SYMPTOMS</a></li>
+                    <li><a href="Diagnose.html">DIAGNOSE</a></li>
+                    <li><a href="Therapy.html">THERAPY</a></li>
+                    <li><a href="Consult.html">CONSULT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Consult</h1>
+        </div>
+    </section>
+
+<!--------------Contact Content----------------> 
+<section class="loc"></section>
+<div class="row">
+    <div class="loc-col">
+        <h1>Hospitals near me</h1>
+    </div>
+</div>
+<div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62663.48292213167!2d76.9982464!3d11.0034944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1623685014438!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 9876543210</h5>
+                    <p>Contact us</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>wecareforyou@gmail.com</h5>
+                    <p>Email us</p>
+                </span>
+            </div>
+            <div class="contact-col">
+            <form action="Form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input email="text" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+            </div>
+        </div>
+</section>
+
+<!--------------Footer----------------> 
+<section class="footer">
+    <h3>About Us</h3>
+    <p3>We are in the fight against ALS - Stay Strong..!!</p3>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i></p>
+</section>
+
+<!--------------JavaScript for Toggle Menu-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALS</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="ALS.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Symptoms.html">SYMPTOMS</a></li>
+                    <li><a href="Diagnose.html">DIAGNOSE</a></li>
+                    <li><a href="Therapy.html">THERAPY</a></li>
+                    <li><a href="Consult.html">CONSULT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>About</h1>
+        </div>
+    </section>
+
+<!--------------Causes----------------> 
+<section class="about">
+    <div class="row">
+        <div class="about-col">
+            <h1>What is the reason?</h1>
+            <p>&emsp;&emsp;&emsp;&emsp;ALS affects the motor neurons which control voluntary muscle movements such as walking and talking and causes those neurons to gradually deteriorate, and eventually cause mortality. Motor neurons extend from the brain to the spinal cord to muscles throughout the body. When these neurons are damaged, they stop sending signals to the muscles, thereby reducing their function. ALS is a genetic disease which is inherited in 5% to 10% of people.</p>
+        </div>
+    </div>
+</section>
+
+<!--------------Risk Factors----------------> 
+<section class="risk" id="risk">
+    <div class="title">
+        <h2 class="titleText">Risk</h2>
+        <p>Established Risk Factors</p>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/sex.jpg">
+                <div class="text">
+                    <h3>SEX<br>More men than women develop ALS, before the age of 65</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/age.jpg">
+                <div class="text">
+                    <h3>AGE<br>ALS risk increases with age, and is most common between the age of 40 and mid-60s</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/heridity.jpg">
+                <div class="text">
+                    <h3>HERIDITY<br>5-10% of people with ALS<br>inherited it. There is a 50-50<br>chance of inheritance</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/etx.jpg">
+                <div class="text">
+                    <h3>ENVIRONMENTAL TOXIC EXPOSURE<br>There are some evidence that suggest that exposure to lead or other toxic substances might be linked to ALS</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/smoking.jpg">
+                <div class="text">
+                    <h3>SMOKING<br>Smoking is an environmental risk factor for ALS especially for women after menopause</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/genetics.jpg">
+                <div class="text">
+                    <h3>GENETICS<br>About 60% of individuals with familial ALS have an identified to undergo SOD1 genetic mutation.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>  
+
+<!--------------Footer----------------> 
+<section class="footer">
+    <h3>About Us</h3>
+    <p3>We are in the fight against ALS - Stay Strong..!!</p3>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i></p>
+</section>
+
+<!--------------JavaScript for Toggle Menu-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

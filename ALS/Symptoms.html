@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALS</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="ALS.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Symptoms.html">SYMPTOMS</a></li>
+                    <li><a href="Diagnose.html">DIAGNOSE</a></li>
+                    <li><a href="Therapy.html">THERAPY</a></li>
+                    <li><a href="Consult.html">CONSULT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Symptoms</h1>
+        </div>
+    </section>
+
+<!--------------Symptoms Content----------------> 
+<section class="symptom">
+    <div class="row">
+        <div class="symp-col">
+            <h1>How do I identify?</h1>
+            <p>&emsp;&emsp;&emsp;&emsp;ALS is typically a disease that involves a gradual onset. The initial symptoms of ALS can be quite varied in different people. One person may have trouble grasping a pen or lifting a coffee cup, while another person may experience a change in vocal pitch when speaking. Gradual onset of progressive muscle weakness – which is generally painless --  is the most common initial symptom in ALS. Other early symptoms vary but can include tripping, dropping things, abnormal fatigue of the arms and/or leg,<br>
+               &emsp;&emsp;&emsp;&emsp;Since ALS attacks only motor neurons, the senses of sight, touch, hearing, taste and smell are not affected. For many people, muscles of the eyes and bladder are generally not affected.</p>
+        </div>
+    </div>
+    <div class="symp-col">
+        <img src="images/symptoms.jpg">
+    </div>
+</section>
+
+<!---------------Symptoms------------------>
+<section class="symptoms" id="symptoms">
+    <div class="title">
+        <h2 class="titleText">Symptoms</h2>
+        <p>Signs and symptoms of ALS vary greatly from person to person, depending on which neurons are affected. Signs and symptoms might include:</p>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/difficulty.jpg">
+                <div class="symp">
+                    <h3>Difficulty walking or doing normal daily activities</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/tripping.jpg">
+                <div class="symp">
+                    <h3>Tripping and falling</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/weakness.jpg">
+                <div class="symp">
+                    <h3>Weakness in your leg, feet or ankles</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/hand.jpg">
+                <div class="symp">
+                    <h3>Hand weakness or clumsiness</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/slurred.png">
+                <div class="symp">
+                    <h3>Slurred speech or trouble swallowing</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/muscle.jpg">
+                <div class="symp">
+                    <h3>Muscle cramps and twitching in your arms, shoulders and tongue</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/inappropriate.jpg">
+                <div class="symp">
+                    <h3>Inappropriate crying, laughing or yawning</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/cognitive.jpg">
+                <div class="symp">
+                    <h3>Cognitive and behavioral changes</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/breathing.jpg">
+                <div class="symp">
+                    <h3>Breathing problems</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/speaking.jpg">
+                <div class="symp">
+                    <h3>Speaking problems</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/eating.jpg">
+                <div class="symp">
+                    <h3>Eating problems</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/dementia.jpg">
+                <div class="symp">
+                    <h3>Dementia</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>  
+
+<!--------------Footer----------------> 
+<section class="footer">
+    <h3>About Us</h3>
+    <p3>We are in the fight against ALS - Stay Strong..!!</p3>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i></p>
+</section>
+
+<!--------------JavaScript for Toggle Menu-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

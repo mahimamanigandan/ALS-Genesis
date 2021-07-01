@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALS</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="ALS.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Symptoms.html">SYMPTOMS</a></li>
+                    <li><a href="Diagnose.html">DIAGNOSE</a></li>
+                    <li><a href="Therapy.html">THERAPY</a></li>
+                    <li><a href="Consult.html">CONSULT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Diagnose</h1>
+        </div>
+    </section>
+
+<!--------------Diagnose Content----------------> 
+<section class="diag">
+    <div class="row">
+        <div class="diag-col">
+            <h1>How do I cure?</h1>
+            <p>&emsp;&emsp;&emsp;&emsp;The diagnostic process for ALS often involves a series of tests. These tests include an MRI (magnetic resonance imaging) of the neck, head, and lower spine, an EMG (electromyography) which tests nerve conduction, and a series of blood tests. Sometimes urine tests, genetic tests, or a lumbar puncture (spinal tap) are required.</p>
+        </div>
+    </div>
+</section>
+
+<!--------------Disgnose-------------->
+<section class="diagnose" id="diagnose">
+    <div class="title">
+        <h2 class="titleText">Diagnose</h2>
+        <p>Signs and symptoms of ALS vary greatly from person to person, depending on which neurons are affected. Signs and symptoms might include:</p>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/emg.jpeg">
+                <div class="nose">
+                    <h3>Electromyogram<br>EMG test evaluates the electrical activity of the muscles under contraction and relaxation.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/ncs.jpg">
+                <div class="nose">
+                    <h3>Nerve Conduction Study<br>Nerve conduction study measures the ability of the nerves to send impulses to muscles in the body and helps to diagnose nerve damages.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/mri.jpg">
+                <div class="nose">
+                    <h3>MRI<br>MRI produces detailed images of the brain and spinal cord revealing the spinal cord tumors, herniated disks in your neck, or other conditions responsible for symptoms.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/blood.jpg">
+                <div class="nose">
+                    <h3>Blood and Urine test<br>These tests are used to analyze thyroid and parathyroid disease, vitamin B12 deficiency, hepatitis, and Creatine kinase (CK, a muscle enzyme released when muscles are injured).</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/spinal.jpg">
+                <div class="nose">
+                    <h3>Spinal Tap<br>Spinal tap (lumbar puncture) involves removing a sample of spinal fluid used to examine the abnormal cells.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="images/biopsy.jpg">
+                <div class="nose">
+                    <h3>Muscle biopsy<br>Muscle biopsy is done when the patient is under local anesthesia, a small portion of your muscle is removed and analyzed.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>  
+
+<!--------------Footer----------------> 
+<section class="footer">
+    <h3>About Us</h3>
+    <p3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p3>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i></p>
+</section>
+
+<!--------------JavaScript for Toggle Menu-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
